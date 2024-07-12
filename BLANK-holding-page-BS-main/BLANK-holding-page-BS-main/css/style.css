@@ -1,0 +1,47 @@
+:root {
+    --margin-size: 150px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    background: url('../cropped-tickittyboo-2020-logo.jpg') no-repeat center center;
+    background-size: contain;
+    width: 600px;
+    height: 600px; 
+    margin: 0 auto 20px auto;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.75); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
